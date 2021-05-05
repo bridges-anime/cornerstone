@@ -1,0 +1,23 @@
+name: cornerstone
+version: 0.1.0
+
+authors:
+  - Luna <her@mint.lgbt>
+
+targets:
+  cornerstone:
+    main: src/cornerstone.cr
+
+crystal: 1.0.0
+
+license: MIT
+
+dependencies:
+  pg:
+    github: will/crystal-pg
+  jwt:
+    github: crystal-community/jwt
+  router:
+    github: tbrand/router.cr
+  dotenv:
+    github: gdotdesign/cr-dotenv
